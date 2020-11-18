@@ -1,7 +1,7 @@
 # gpk
 An another package manager for Linux and FreeBSD
 # Dependiences
--ksh
+  - ksh
 # FreeBSD dependiences
 -bash
 # Download
