@@ -36,3 +36,4 @@ First create a directory to build your app.Next you have to create some files an
 # News
   - Yes, I fixed this bug. Enjoy FreeBSD users.
   - gpk will be default PM on Antergos2020
+  - gpk for Slackware - work in progress
