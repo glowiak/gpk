@@ -8,7 +8,7 @@ An another package manager for Linux and FreeBSD
   - Arch package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1-1-any.pkg.tar.zst
   - Debian package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1-debian-any.tgz
   - RedHat/CEntOS package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1-redhat-any.tgz
-  - FreeBSD package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1-freebsd-any.tgz
+  - FreeBSD package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1_01-freebsd-any.tgz
   - openSUSE package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1-opensuse-any.tgz
 # Installation
 On Arch simply install package with pacman -U. On other OS type it to install it:
@@ -33,3 +33,6 @@ First create a directory to build your app.Next you have to create some files an
   - remove - file that contains deinstallation script for package
   - Next, download [buildpkg.sh script](https://github.com/glowiak/gpk/releases/download/buildpkg.sh/buildpkg.sh), go to directory that's one level up than build directory, copy buildpkg.sh to this dir, and type 'ksh buildpkg.sh build_directory_name' or on FreeBSD 'bash buildpkg.sh build_dir_name'
   This command will generate package file: name-version_arch.gpk. For example 'Tutorial-1.0_x86_64.gpk"
+# News
+  - Yes, I fixed this bug. Enjoy FreeBSD users.
+  - gpk will be default PM on Antergos2020
