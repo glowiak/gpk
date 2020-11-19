@@ -5,11 +5,12 @@ An another package manager for Linux and FreeBSD
 # FreeBSD dependiences
   - bash
 # Download
-  - Arch package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1-1-any.pkg.tar.zst
-  - Debian package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1-debian-any.tgz
-  - RedHat/CEntOS package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1-redhat-any.tgz
-  - FreeBSD package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1_01-freebsd-any.tgz
-  - openSUSE package: https://github.com/glowiak/gpk/releases/download/0.1/gpk-0.1-opensuse-any.tgz
+  - Arch package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-1-any.pkg.tar.zst
+  - Debian package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-debian-any.tgz
+  - RedHat/CEntOS package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-redhat-any.tgz
+  - FreeBSD package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-freebsd-any.tgz
+  - openSUSE package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-opensuse-any.tgz
+  - Gentoo package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-gentoo-any.tgz
 # Installation
 On Arch simply install package with pacman -U. On other OS type it to install it:
   - cd / && tar xzvf path_to_package_file.tgz
@@ -37,3 +38,4 @@ First create a directory to build your app.Next you have to create some files an
   - Yes, I fixed this bug. Enjoy FreeBSD users.
   - gpk will be default PM on Antergos2020
   - gpk for Slackware - work in progress
+  - I can't make version for slackware, because this distro don't support dependiences in slackpkg/installpkg, but you have gpk for Gentoo :) 
