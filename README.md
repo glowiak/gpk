@@ -32,5 +32,3 @@ First create a directory to build your app.Next you have to create some files an
   - pkgdesc - file that contains package description. (NOTE: You can't use ENTER/RETURN in it)
   - Next, download [buildpkg.sh script](https://github.com/glowiak/gpk/releases/download/buildpkg.sh/buildpkg.sh), go to directory that's one level up than build directory, copy buildpkg.sh to this dir, and type 'ksh buildpkg.sh build_directory_name' or on FreeBSD 'bash buildpkg.sh build_dir_name'
   This command will generate package file: name-version_arch.gpk. For example 'Tutorial-1.0_x86_64.gpk"
-# Broken uninstalling packages on FreeBSD
-This is broken, but I'll fix it.
