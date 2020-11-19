@@ -39,3 +39,7 @@ First create a directory to build your app.Next you have to create some files an
   - gpk will be default PM on Antergos2020
   - gpk for Slackware - work in progress
   - I can't make version for slackware, because this distro don't support dependiences in slackpkg/installpkg, but you have gpk for Gentoo :) 
+# Source code
+There are a lot of questions "...where's the source code?". This app is wroten in ksh, so executable is source. Executable/source files:
+  - /usr/local/bin/gpk-install
+  - /usr/local/bin/gpk-remove
