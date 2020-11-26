@@ -43,3 +43,5 @@ First create a directory to build your app.Next you have to create some files an
 There are a lot of questions "...where's the source code?". This app is wroten in ksh, so executable is source. Executable/source files:
   - /usr/local/bin/gpk-install
   - /usr/local/bin/gpk-remove
+# Moving to Java 6?
+"...it's only ksh (!) script..." - so I'm creating beta version for ArchLinux created in Java 1.6.0_25
