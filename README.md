@@ -5,12 +5,12 @@ An another package manager for Linux and FreeBSD
 # FreeBSD dependiences
   - bash
 # Download
-  - Arch package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-1-any.pkg.tar.zst
-  - Debian package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-debian-any.tgz
-  - RedHat/CEntOS package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-redhat-any.tgz
-  - FreeBSD package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-freebsd-any.tgz
-  - openSUSE package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-opensuse-any.tgz
-  - Gentoo package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-gentoo-any.tgz
+  - Arch package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-1-any.pkg.tar.zst
+  - Debian package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-debian-any.tgz
+  - RedHat/CEntOS package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-redhat-any.tgz
+  - FreeBSD package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-freebsd-any.tgz
+  - openSUSE package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-opensuse-any.tgz
+  - Gentoo package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-gentoo-any.tgz
 # Installation
 On Arch simply install package with pacman -U. On other OS type it to install it:
   - cd / && tar xzvf path_to_package_file.tgz
