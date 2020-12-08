@@ -5,12 +5,12 @@ An another package manager for Linux and FreeBSD
 # FreeBSD dependiences
   - bash
 # Download
-  - Arch package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-1-any.pkg.tar.zst
-  - Debian package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-debian-any.tgz
-  - RedHat/CEntOS package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-redhat-any.tgz
-  - FreeBSD package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-freebsd-any.tgz
-  - openSUSE package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-opensuse-any.tgz
-  - Gentoo package: https://github.com/glowiak/gpk/releases/download/0.2/gpk-0.2-gentoo-any.tgz
+  - Arch package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-1-any.pkg.tar.zst
+  - Debian package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-debian-any.tgz
+  - RedHat/CEntOS package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-redhat-any.tgz
+  - FreeBSD package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-freebsd-any.tgz
+  - openSUSE package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-opensuse-any.tgz
+  - Gentoo package: https://github.com/glowiak/gpk/releases/download/0.3/gpk-0.3-gentoo-any.tgz
 # Installation
 On Arch simply install package with pacman -U. On other OS type it to install it:
   - cd / && tar xzvf path_to_package_file.tgz
@@ -39,9 +39,16 @@ First create a directory to build your app.Next you have to create some files an
   - gpk will be default PM on Antergos2020
   - gpk for Slackware - work in progress
   - I can't make version for slackware, because this distro don't support dependiences in slackpkg/installpkg, but you have gpk for Gentoo :) 
+  - gpk for freebsd now works
+  - added "@skipArchTest" argument
+  - package file path don't have to be absolute
 # Source code
 There are a lot of questions "...where's the source code?". This app is wroten in ksh, so executable is source. Executable/source files:
   - /usr/local/bin/gpk-install
   - /usr/local/bin/gpk-remove
 # Moving to Java 6?
-"...it's only ksh (!) script..." - so I'm creating beta version for ArchLinux created in Java 1.6.0_25
+"...it's only ksh (!) script..." - so I'm creating beta version for ArchLinux created in Java 1.6.0_25. It not works.
+# Ubuntu says x86_64 is amd64, so how I can install packages on it?
+Good question, I thinked on it a lot of time, and I have solution. If you want install normal gpk package on ubuntu or ubuntu gpk package on other os just type it: "/usr/local/bin/gpk-install packagename @skipArchTest"
+# Typing absolute path is annoying
+I know, so in 0.3 you don't have to type absolute package file path! Enjoy :)
