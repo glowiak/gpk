@@ -52,3 +52,14 @@ There are a lot of questions "...where's the source code?". This app is wroten i
 Good question, I thinked on it a lot of time, and I have solution. If you want install normal gpk package on ubuntu or ubuntu gpk package on other os just type it: "/usr/local/bin/gpk-install packagename @skipArchTest"
 # Typing absolute path is annoying
 I know, so in 0.3 you don't have to type absolute package file path! Enjoy :)
+# igpk
+You may saw commandline package managers like apt,pacman,zypper,yum etc, so I made igpk - commandline tool to manage gpk software. igpk uses official package repository, to change it edit /opt/igpk/repo file.
+# igpk installation
+To install igpk just type as root: "curl -k -L https://raw.githubusercontent.com/glowiak/gpk/master/install_igpk.sh | sh"
+# igpk uninstallation
+To remove igpk from your system, just type as root: "curl -k -L https://raw.githubusercontent.com/glowiak/gpk/master/remove_igpk.sh | sh"
+# igpk usage
+  - igpk @install <package> <version> <architecture> - install package
+  - igpk @installAnyArch <package> <version> <architecture> - install package for any architecture (like @skipArchTest)
+  - igpk @delete <package> - uninstall package
+  - igpk @help - display help
