@@ -11,6 +11,7 @@ An another package manager for Linux and FreeBSD
   - FreeBSD package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-freebsd-any.tgz
   - openSUSE package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-opensuse-any.tgz
   - Gentoo package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-gentoo-any.tgz
+  - VoidLinux package: https://github.com/glowiak/gpk/releases/download/0.4/gpk-0.4-voidlinux-any.tgz
 # Installation
 On Arch simply install package with pacman -U. On other OS type it to install it:
   - cd / && tar xzvf path_to_package_file.tgz
