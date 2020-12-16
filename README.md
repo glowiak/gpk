@@ -56,7 +56,7 @@ I know, so in 0.3 you don't have to type absolute package file path! Enjoy :)
 # igpk
 You may saw commandline package managers like apt,pacman,zypper,yum etc, so I made igpk - commandline tool to manage gpk software. igpk uses official package repository, to change it edit /opt/igpk/repo file. NOTE!: To use igpk you have to have installed and configured sudo!
 # igpk installation
-To install igpk download and install [this](https://github.com/glowiak/gpk/releases/download/igpk/igpk-1.2_x86_64.gpk) package.
+To install igpk download and install [this](https://github.com/glowiak/gpk/releases/download/igpk/igpk-1.3_x86_64.gpk) package.
 # igpk uninstallation
 To remove igpk from your system, just type as root: "/usr/local/bin/gpk-remove igpk"
 # igpk usage
