@@ -69,3 +69,7 @@ Note! 'igpk @help' may be not up to date! You have to use igpk as root.
   - igpk @metaAnyArch <package> - the same as previous, but uses @skipArchTest flag. Useful for installing steam on x64
 # igpk meta repository
 igpk meta repository that contains links to latest packages versions is located [here](http://github.com/glowiak/igpk-meta)
+
+
+# STOP USING GPK AND SYSCONF
+gpk and sysconf are pretty bad and now discontinued. Move to [pkg-tools](http://github.com/glowiak/pkg-tools)
